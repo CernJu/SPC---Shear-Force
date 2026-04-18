@@ -2,7 +2,7 @@
 
 Tento projekt monitoruje kvalitu wire bondingu pomocou štatistických metód.
 
-👉 **[Zobraziť interaktívnu stránku s grafmi a dizajnom tu](https://https://cernju.github.io)**
+👉 **[Zobraziť interaktívnu stránku s grafmi a dizajnom tu](https://cernju.github.io)**
 
 ## Popis procesu:
 - Zber dát z produkcie...
