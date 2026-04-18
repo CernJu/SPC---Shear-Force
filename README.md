@@ -1,17 +1,73 @@
-Statistical Process Control (SPC) of Shear-Force
-================================================
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>SPC of Shear-Force</title>
+    <style>
+        body {
+            /* MOŽNOSŤ A: Technická mriežka vygenerovaná kódom (odporúčané) */
+            background-color: #f4f7f9;
+            background-image: 
+                linear-gradient(0deg, transparent 24%, rgba(0, 150, 255, .05) 25%, rgba(0, 150, 255, .05) 26%, transparent 27%, transparent 74%, rgba(0, 150, 255, .05) 75%, rgba(0, 150, 255, .05) 76%, transparent 77%, transparent), 
+                linear-gradient(90deg, transparent 24%, rgba(0, 150, 255, .05) 25%, rgba(0, 150, 255, .05) 26%, transparent 27%, transparent 74%, rgba(0, 150, 255, .05) 75%, rgba(0, 150, 255, .05) 76%, transparent 77%, transparent);
+            background-size: 50px 50px;
+            
+            /* MOŽNOSŤ B: Ak chcete použiť konkrétny JPG obrázok, odkomentujte riadok nižšie */
+            /* background-image: url('https://unsplash.com'); */
+            /* background-size: cover; */
 
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
 
-To control quality of wire bonding process, the shear force data is processed as follows:
-- daily data collection by production device (raw txt data) and export to metadata file
-- metadata transformation to Q-DAS dedicated format (by Access VBA code)
-- data evaluation by defined evaluation startegy (Q-DAS statistical software) to Control Chart
+        .container {
+            max-width: 900px;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-top: 5px solid #0056b3;
+        }
 
-<h3>Meta data definition</h3>
+        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h3 { color: #0056b3; margin-top: 30px; }
+        
+        .process-list { background: #f8f9fa; padding: 20px; border-left: 4px solid #0056b3; border-radius: 4px; }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 15px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body>
 
-![Image](http://raw.githubusercontent.com/CernJu/SPC---Shear-Force/master/SPC/export_txt.jpg)
+<div class="container">
+    <h1>Statistical Process Control (SPC) of Shear-Force</h1>
+    
+    <p>To control quality of wire bonding process, the shear force data is processed as follows:</p>
+    <div class="process-list">
+        <ul>
+            <li>Daily data collection by production device (raw txt data) and export to metadata file</li>
+            <li>Metadata transformation to Q-DAS dedicated format (by Access VBA code)</li>
+            <li>Data evaluation by defined evaluation strategy (Q-DAS statistical software) to Control Chart</li>
+        </ul>
+    </div>
 
+    <h3>Meta data definition</h3>
+    <img src="http://raw.githubusercontent.com/CernJu/SPC---Shear-Force/master/SPC/export_txt.jpg" alt="Meta data definition">
 
-<h3>Control Chart</h3>
+    <h3>Control Chart</h3>
+    <img src="http://raw.githubusercontent.com/CernJu/SPC---Shear-Force/master/SPC/ControlChart_Orig.jpg" alt="Control Chart">
+</div>
 
-![Image](http://raw.githubusercontent.com/CernJu/SPC---Shear-Force/master/SPC/ControlChart_Orig.jpg)
+</body>
+</html>
