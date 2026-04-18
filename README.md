@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="SPC/SPC_banner.jpg" width="100%" style="max-height: 300px; object-fit: cover; border-radius: 8px;">
-</p>
+<img src="SPC/SPC_banner.jpg" width="75%" height="100">
+
+
 
 # 📈 Statistical Process Control (SPC) of Shear-Force
 
