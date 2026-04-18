@@ -1,8 +1,8 @@
-# SPC of Shear-Force Project
+# 📈 Statistical Process Control (SPC) of Shear-Force
 
 Tento projekt monitoruje kvalitu wire bondingu pomocou štatistických metód.
 
-👉 **[Zobraziť interaktívnu stránku s grafmi a dizajnom tu](https://cernju.github.io/SPC---Shear-Force/)**
+👉 **[Zobraziť stránku s grafmi a dizajnom tu](https://cernju.github.io/SPC---Shear-Force/)**
 
 ## Popis procesu:
 - Zber dát z produkcie...
