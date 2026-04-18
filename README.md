@@ -62,7 +62,7 @@
         </ul>
     </div>
 
-    <h3>Meta data definition</h3>
+    <h3>Meta data definition...</h3>
     <img src="http://raw.githubusercontent.com/CernJu/SPC---Shear-Force/master/SPC/export_txt.jpg" alt="Meta data definition">
 
     <h3>Control Chart</h3>
